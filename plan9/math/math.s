@@ -2,7 +2,7 @@
 
 // func add(a, b,c int) int
 TEXT ·add(SB), NOSPLIT, $0-32
-    MOVQ b+0(FP), AX // 参数 a
+    MOVQ a+0(FP), AX // 参数 a
     MOVQ b+8(FP), BX // 参数 b
     MOVQ c+16(FP), CX // 参数 c
     ADDQ BX, AX    // AX += BX

@@ -1,0 +1,3 @@
+GLOBL ·Id(SB),$2
+
+DATA ·Id+0(SB)/2,$0x2537
