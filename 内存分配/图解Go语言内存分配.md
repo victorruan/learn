@@ -10,3 +10,11 @@ Go在程序启动的时候，会先向操作系统申请一块内存（注意这
 申请到的内存块被分配了三个区域，在X64上分别是512MB，16GB，512GB大小。
 
 ![申请到的内存块被分配了三个区域](https://user-gold-cdn.xitu.io/2019/3/13/169755c860e5fa3c?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+
+`arena区域`就是我们所谓的堆区，Go动态分配的内存都是在这个区域，它把内存分割成`8KB`大小的页，一些页组合起来称为`mspan`。
+
+`bitmap区域`标识`arena区域`哪些地址保存了对象，并且用`4bit`标志位表示对象是否包含指针、`GC`标记信息。`bitmap`中一个`byte`大小的内存对应`arena`区域中4个指针大小（指针大小为 8B ）的内存，所以`bitmap区域`的大小是`512GB/(4*8B)=16GB`。
+![](https://user-gold-cdn.xitu.io/2019/3/13/169755c75a5cd188?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![](https://user-gold-cdn.xitu.io/2019/3/13/169755c75a442c75?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+
+从上图其实还可以看到bitmap的高地址部分指向arena区域的低地址部分，也就是说bitmap的地址是由高地址向低地址增长的。
