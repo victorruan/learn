@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd49086a-7510-4e33-b1e0-10cf5cb2db74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/plan9/pkg/pkg.s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plan9/pkg/pkg_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plan9/str/pkg.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plan9/变量赋值001/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/不要忽略goroutine的启动时间 /main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plan9/math/math.s" beforeDir="false" afterPath="$PROJECT_DIR$/plan9/math/math.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/内存分配/图解Go语言内存分配.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
