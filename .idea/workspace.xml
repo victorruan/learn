@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd49086a-7510-4e33-b1e0-10cf5cb2db74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/learn_interface/learn_type/watch_int_type/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_interface/learn_type/learn_type.md" beforeDir="false" afterPath="$PROJECT_DIR$/learn_interface/learn_type/learn_type.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn_interface/learn_type/watch_int_type/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/learn_interface/learn_type/watch_int_type/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +134,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/learn_interface/learn_type/watch_int_type/main.go</url>
-          <line>15</line>
+          <line>23</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
@@ -146,6 +145,7 @@
         <watch expression="*(*&quot;*int&quot;)(uintptr(&amp;i)+8)" language="go" />
         <watch expression="*(*&quot;*runtime._type&quot;)(uintptr(&amp;ib))" language="go" />
         <watch expression="*(*&quot;*runtime._type&quot;)(uintptr(&amp;ic))" language="go" />
+        <watch expression="*(*&quot;runtime.uncommontype&quot;)((uintptr)((*(*int)(uintptr(&amp;ic))+48)))" language="go" />
       </configuration>
     </watches-manager>
   </component>

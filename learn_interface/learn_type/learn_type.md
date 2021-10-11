@@ -158,7 +158,58 @@ type uncommontype struct {
 - xcount是导出方法的数量,大写方法的数量
 - moff是方法地址偏移量
 
-### 举个自定义类型的例子
+我们来看这样一段代码,通过上面的调试方法,写出watch表达式
+> *(*"runtime.uncommontype")((uintptr)((*(*int)(uintptr(&ic))+48))) 
+> 
+需要注意+48 实际上是加的 sizeof(runtime._type)
+
+```
+package main
+
+import "runtime"
+
+type AliasInt = int
+type MyInt int
+
+func (i MyInt) GetName() string {
+	return "MyInt"
+}
+
+func (i MyInt) setName(name string )  {
+
+}
+
+func main() {
+	var (
+		a int      = 101
+		b AliasInt = 102
+		c MyInt    = 103
+	)
+	var i interface{} = a
+	var ib interface{} = b
+	var ic interface{} = c
+	// *(*"*runtime._type")(uintptr(&i))
+	// *(*"*int")(uintptr(&i)+8)
+	// *(*"*runtime._type")(uintptr(&ib))
+	// *(*"*int")(uintptr(&ib)+8)
+	// *(*"*runtime._type")(uintptr(&ic))
+	// *(*"*int")(uintptr(&ic)+8)
+	// *(*"runtime.uncommontype")((uintptr)((*(*int)(uintptr(&ic))+48)))
+	runtime.KeepAlive(i)
+	runtime.KeepAlive(ib)
+	runtime.KeepAlive(ic)
+}
+
+```
+
+![uncommontype](./watch_int_type/uncommontype.png)
+
+观察上图,
+1. mcount=2 代表方法数量为2
+2. xcount=1 代表导出数量为1
+3. moff=16 代表方法偏移量为16
+
+### 再举个自定义类型的例子
 
 ```go
 type myslice []string
