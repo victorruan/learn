@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd49086a-7510-4e33-b1e0-10cf5cb2db74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/varint/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn_interface/learn_type/watch_nameoff/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn_interface/learn_type/learn_type.md" beforeDir="false" afterPath="$PROJECT_DIR$/learn_interface/learn_type/learn_type.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
       <recent name="$PROJECT_DIR$/varint" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/victorruan/learn/learn_interface/learn_type/watch_int_type">
+  <component name="RunManager" selected="Go Build.go build github.com/victorruan/learn/learn_interface/learn_type/watch_nameoff">
     <configuration name="go build github.com/victorruan/learn/gorm" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -86,13 +87,13 @@
       <filePath value="$PROJECT_DIR$/learn_interface/learn_type/watch_int_type/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/victorruan/learn/plan9/math" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/victorruan/learn/learn_interface/learn_type/watch_nameoff" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/victorruan/learn/plan9/math" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/plan9/math/math.go" />
+      <package value="github.com/victorruan/learn/learn_interface/learn_type/watch_nameoff" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/learn_interface/learn_type/watch_nameoff/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="TestA in github.com/victorruan/learn/plan9/pkg" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -108,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/victorruan/learn/learn_interface/learn_type/watch_nameoff" />
         <item itemvalue="Go Build.go build github.com/victorruan/learn/learn_interface/learn_type/watch_int_type" />
         <item itemvalue="Go Build.go build github.com/victorruan/learn/gorm" />
         <item itemvalue="Go Build.go build github.com/victorruan/learn/不要忽略goroutine的启动时间 " />
         <item itemvalue="Go Test.TestA in github.com/victorruan/learn/plan9/pkg" />
-        <item itemvalue="Go Build.go build github.com/victorruan/learn/plan9/math" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +143,11 @@
           <line>23</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/learn_interface/learn_type/watch_nameoff/main.go</url>
+          <line>15</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -151,6 +157,7 @@
         <watch expression="*(*&quot;*runtime._type&quot;)(uintptr(&amp;ib))" language="go" />
         <watch expression="*(*&quot;*runtime._type&quot;)(uintptr(&amp;ic))" language="go" />
         <watch expression="*(*&quot;runtime.uncommontype&quot;)((uintptr)((*(*int)(uintptr(&amp;ic))+48)))" language="go" />
+        <watch expression="*(*&quot;runtime.name&quot;)(0xc000092f50)" language="go" />
       </configuration>
     </watches-manager>
   </component>
