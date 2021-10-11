@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd49086a-7510-4e33-b1e0-10cf5cb2db74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/varint/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_interface/learn_type/learn_type.md" beforeDir="false" afterPath="$PROJECT_DIR$/learn_interface/learn_type/learn_type.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_interface/learn_type/watch_int_type/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/learn_interface/learn_type/watch_int_type/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,11 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/varint" />
+    </key>
   </component>
   <component name="RunManager" selected="Go Build.go build github.com/victorruan/learn/learn_interface/learn_type/watch_int_type">
     <configuration name="go build github.com/victorruan/learn/gorm" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
