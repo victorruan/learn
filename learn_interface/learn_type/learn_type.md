@@ -151,6 +151,7 @@ type uncommontype struct {
 }
 ```
 
+### uncommontype 
 如果是自定义类型,类型元数据里还会存 一个uncommontype的结构体
 
 - pkgpath是类型所在的包路径
