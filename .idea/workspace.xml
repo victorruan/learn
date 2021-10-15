@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd49086a-7510-4e33-b1e0-10cf5cb2db74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/内存分配/地址空间.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/内存分配/mem_layout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/内存分配/mmap.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/内存分配/mmap.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/内存分配/图解Go语言内存分配.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
