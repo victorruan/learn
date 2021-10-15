@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd49086a-7510-4e33-b1e0-10cf5cb2db74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/learn_interface/learn_type/watch_nameoff/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MPG模型与并发调度单元/MPG模型与并发调度单元.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/内存分配/自由表.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn_interface/learn_type/learn_type.md" beforeDir="false" afterPath="$PROJECT_DIR$/learn_interface/learn_type/learn_type.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,10 +56,19 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MPG模型与并发调度单元" />
       <recent name="$PROJECT_DIR$/varint" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/victorruan/learn/learn_interface/learn_type/watch_nameoff">
+  <component name="RunManager" selected="Go Build.go build github.com/victorruan/learn/map">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build github.com/victorruan/learn/gorm" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -96,24 +105,31 @@
       <filePath value="$PROJECT_DIR$/learn_interface/learn_type/watch_nameoff/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestA in github.com/victorruan/learn/plan9/pkg" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/victorruan/learn/map" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn" />
-      <working_directory value="$PROJECT_DIR$/plan9/pkg" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/victorruan/learn/plan9/pkg" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
+      <package value="github.com/victorruan/learn/map" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/map/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^TestA$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/victorruan/learn/map" />
         <item itemvalue="Go Build.go build github.com/victorruan/learn/learn_interface/learn_type/watch_nameoff" />
         <item itemvalue="Go Build.go build github.com/victorruan/learn/learn_interface/learn_type/watch_int_type" />
         <item itemvalue="Go Build.go build github.com/victorruan/learn/gorm" />
         <item itemvalue="Go Build.go build github.com/victorruan/learn/不要忽略goroutine的启动时间 " />
-        <item itemvalue="Go Test.TestA in github.com/victorruan/learn/plan9/pkg" />
       </list>
     </recent_temporary>
   </component>
@@ -131,6 +147,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -142,11 +159,6 @@
           <url>file://$PROJECT_DIR$/learn_interface/learn_type/watch_int_type/main.go</url>
           <line>23</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/learn_interface/learn_type/watch_nameoff/main.go</url>
-          <line>15</line>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
