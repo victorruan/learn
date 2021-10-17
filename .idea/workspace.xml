@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd49086a-7510-4e33-b1e0-10cf5cb2db74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/内存分配/allocCache.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/内存分配/example/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/特殊运算符/golang位运算操作符&amp;^含义.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/内存分配/内存管理单元mspan.md" beforeDir="false" afterPath="$PROJECT_DIR$/内存分配/内存管理单元mspan.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,16 @@
       <recent name="$PROJECT_DIR$/varint" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/victorruan/learn/map">
+  <component name="RunManager" selected="Go Build.go build github.com/victorruan/learn/内存分配/example">
+    <configuration name="go build github.com/victorruan/learn/内存分配/example" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/victorruan/learn/内存分配/example" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/内存分配/example/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build github.com/victorruan/learn/gorm" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -68,15 +77,6 @@
       <package value="github.com/victorruan/learn/gorm" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/gorm/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github.com/victorruan/learn/不要忽略goroutine的启动时间 " type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learn" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/victorruan/learn/不要忽略goroutine的启动时间 " />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/不要忽略goroutine的启动时间 /main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build github.com/victorruan/learn/learn_interface/learn_type/watch_int_type" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/victorruan/learn/内存分配/example" />
         <item itemvalue="Go Build.go build github.com/victorruan/learn/map" />
         <item itemvalue="Go Build.go build github.com/victorruan/learn/learn_interface/learn_type/watch_nameoff" />
         <item itemvalue="Go Build.go build github.com/victorruan/learn/learn_interface/learn_type/watch_int_type" />
         <item itemvalue="Go Build.go build github.com/victorruan/learn/gorm" />
-        <item itemvalue="Go Build.go build github.com/victorruan/learn/不要忽略goroutine的启动时间 " />
       </list>
     </recent_temporary>
   </component>
