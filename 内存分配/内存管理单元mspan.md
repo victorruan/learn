@@ -26,3 +26,19 @@ type mspan struct {
 
 1. allocCache是64bit , 上图没有表达清楚
 2. allocCache是从 `startAddr + freeindex` 开始的,上图的 startAddr 有误
+
+
+
+## 状态
+
+运行时会使用 `runtime.mSpanStateBox`存储内存管理单元的状态 `runtime.mSpanState`：
+
+```go
+type mspan struct {
+	...
+	state       mSpanStateBox
+	...
+}
+```
+
+该状态可能处于 `mSpanDead`、`mSpanInUse`、`mSpanManual` 和 `mSpanFree` 四种情况。当 `runtime.mspan`在空闲堆中，它会处于 `mSpanFree` 状态；当 `runtime.mspan `已经被分配时，它会处于`mSpanInUse`、`mSpanManual` 状态
